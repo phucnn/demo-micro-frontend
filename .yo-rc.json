@@ -1,0 +1,54 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.fis.demomf",
+      "nativeLanguage": "en"
+    },
+    "bundleName": "demomf",
+    "dockerOrganization": "demomf",
+    "generateMicroFrontends": "always",
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "demoMicroFrontend",
+    "packageName": "com.fis.demomf",
+    "packageFolder": "com/fis/demomf",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MjkxNjZiMDY0YzM4OWRiYzhlNDk0ZWI0MTRhMzdjZDM5N2E2OTQ1NDE2NGI4Mjg5MzQzMmU1NzE0YjJhNGQ1NjE1NGI2YjY5ZDhmYjUzNDQ0YmRiZDYxZTQ2MGE1YmU0YmZiZDVkMGExNjM5MmM2NTM0YmE3NDUwMmY1NDIzZDY=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1684137580783,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "skipCheckLengthOfIdentifier": false,
+    "otherModules": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.3.2"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "vi"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-entando",
+        "version": "6.3.2"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
